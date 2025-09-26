@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    header{
+        background-color: #E53935;
+        padding: 20px;
+        margin: auto;
+        text-align: center;
+        position: sticky;
+        top: 0;
+    }
+    body{
+        background-color: #fffaf0;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        
+    }
+    a{
+        text-decoration: none;
+    }
+    .centralizar {
+        text-align: center;   
+        margin-top: 30px;    
+    }
+    .interno{
+        background-color: #E53935;
+        color: white;
+        padding: 12px 25px;
+        border-radius: 8px;
+        display: inline-block;
+        font-weight: bold;
+        transition: background-color 0.3s;
+        margin: 20px 0px;
+        transition: color 0.3s , transform 0.2s;
+    }
+    .interno:hover {
+        background-color: #f4a261;
+        transform: scale(1.05);
+    }
+    .externo{
+        background-color: #E53935;
+        color: white;
+        padding: 12px 25px;
+        border-radius: 8px;
+        display: inline-block;
+        font-weight: bold;
+        transition: color 0.3s , transform 0.2s;
+    }
+    .externo:hover {
+        background-color: #f4a261;
+        transform: scale(1.05);
+    }
+    .download{
+        background-color: #E53935;
+        color: white;
+        padding: 12px 25px;
+        border-radius: 8px;
+        display: inline-block;
+        font-weight: bold;
+        transition: color 0.3s , transform 0.2s;
+    }
+    .download:hover {
+        background-color: #f4a261;
+        transform: scale(1.05);
+    }
+    .nao-ordenada{
+    list-style-position: inside;
+    background-color: #ffe4c4;
+    padding: 30px 40px;
+    border-radius: 8px;
+    display: block; 
+    font-weight: bold;
+    margin: 20px auto; 
+    width: fit-content; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.ordenada{
+    list-style-position: inside;
+    background-color: #ffe4c4;
+    padding: 30px 40px;
+    border-radius: 8px;
+    display: block;
+    font-weight: bold;
+    margin: 20px auto;
+    width: fit-content;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.definição{
+    list-style-position: inside;
+    background-color: #ffe4c4;
+    padding: 30px 40px;
+    border-radius: 8px;
+    display: block;
+    font-weight: bold;
+    margin: 20px auto;
+    width: fit-content;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.encadeada{
+    list-style-position: inside;
+    padding-left: 0;
+    background-color: #ffe4c4;
+    padding: 30px 40px;
+    border-radius: 8px;
+    display: block;
+    font-weight: bold;
+    margin: 20px auto;
+    width: fit-content;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.container {
+    text-align: center;
+}
+.tabela{
+     width: 80%;               
+    margin: 20px auto;        
+    border-collapse: collapse; 
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.tabela th, .tabela td{
+    border: 1px solid black;
+    padding: 12px 15px;
+    text-align: center;
+}
+.tabela th{
+    background-color: #E53935;
+    color: white;
+    font-weight: bold;
+}
+footer {
+    background-color: #4b3b2f;
+    color:white;
+    text-align: center;
+    padding: 20px;  
+    text-decoration: none;              
+}
+.voltar {
+    text-decoration: none;
+    color:white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    display: inline-block;
+    transition: color 0.3s , transform 0.2s;
+}
+
+.voltar:hover {
+    background-color: #f4a261;
+    transform: scale(1.05);
+}
+.local{
+   list-style-position: inside;
+    background-color: #634f41;
+    padding: 30px 40px;
+    border-radius: 8px;
+    display: block;
+    font-weight: bold;
+    margin: 20px auto;
+    width: fit-content;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+
+}
+
+</style>
+<header>
+        <h1>Bem-vindo à Feira de Profissões 2025!</h1>
+</header>
+<body>
+    <h3> O guia definitivo para sua jornada profissional. Encontre sua paixão, tire suas dúvidas e prepare-se<br>
+         para o mercado de trabalho do futuro.
+    </h3>
+<div class="centralizar">
+    <div class="interno">
+        <a href="#fim" style="color: white;">link-interno</a> 
+    </div>
+    <div class="externo">
+        <a href="https://guiadoestudante.abril.com.br/#google_vignette"style="color: white;">link-externo</a>
+    </div>
+    <div class="download">
+        <a href="03_Introducao_CSS.pdf" style="color: white;" download>Baixar arquivo</a>
+    </div>
+</div>
+<div class="container">
+<ul class="nao-ordenada">
+    <li>Engenheiro de Software</li>
+    <li>Médico</li>
+    <li>Designer Gráfico</li>
+    <li>Advogado</li>
+    <li>Psicólogo</li>
+</ul>
+<ol class="ordenada">
+    <li>Conheça seus interesses e habilidades</li>
+    <li>Pesquise sobre o mercado de trabalho</li>
+    <li>Converse com profissionais da área</li>
+</ol>
+<dl class="definição">
+    <li>Hard Skills: Habilidades técnicas e mensuráveis, como saber programar ou falar outro idioma.</li>
+    <li>Soft Skills: Habilidades interpessoais e comportamentais, como comunicação, empatia e trabalho em equipe.</li>
+</dl>
+<ul class="encadeada">
+    <div class="Tec">
+        <li>Tecnológica 💻
+        </div>
+    </li>
+        <ul>
+            <li>Programador</li>
+            <li>Designer</li>
+            <li>Analista</li>
+        </ul>
+    </li>
+    <li>Saúde 🩺
+        <ul>
+            <li>Médico</li>
+            <li>Enfermeiro</li>
+            <li>Fisioterapeuta</li>
+        </ul>
+    </li>
+</ul>
+</div>
+<table class="tabela">
+    <tr>
+        <th>coluna 1</th>
+        <th>coluna 2</th>
+        <th>coluna 3</th>
+    </tr>
+    <tr>
+        <td>Dados 01</td>
+        <td>Dados 02</td>
+        <td>Dados 03</td>
+    </tr>
+    <tr>
+        <td>Dados 001</td>
+        <td>Dados 002</td>
+        <td>Dados 003</td>
+    </tr>
+    <tr>
+        <td>Dados 001</td>
+        <td>Dados 002</td>
+        <td>Dados 003</td>
+    </tr>
+</table>
+<footer>
+    <section id="fim">
+<div class="local">
+    <p>📷 Siga-nos no nosso intagram  </p>
+    <p>📍 Rua das Flores, 1289 – Bairro Jardim Azul<br>
+        São Paulo – SP, 04852-310</p>
+</div>
+    <br>
+    <div class="voltar">
+        <a href="#top" style="color: white;">voltar para o inicio</a>
+    </div>
+    </section>
+</footer>
+
+</body>
+
+</body>
+</html>
